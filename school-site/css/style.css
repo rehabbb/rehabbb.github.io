@@ -79,41 +79,121 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face{
 
+font-family:'Josefinslab';
+src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+font-weight:normal;
+font-style:normal;
+letter-spacing: 0.125rem;
+
+}
+
+
+@font-face{
+
+font-family:'Montserrat';
+src: url(../fonts/montserrat-regular.ttf) format('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
 
 
 
 /* Typography Styles */
 
+html{
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+
+font-family: 'Josefinslab', serif;
+font-size:3.75rem;
+margin:1.125rem;
+text-align:center;
+
+}
+
+h2{
+
+font-size:1.5rem;
+
+}
+
+h2+p{
+
+text-indent:1.5rem;
+
+}
+
+p{
+
+font-size:0.75rem;
+letter-spacing:0.031rem;
+word-spacing:0.125rem;
 
 
+}
+
+li{
+
+font-size:0.75rem;
+letter-spacing:0.031rem;
+word-spacing:0.125rem;
+
+}
+
+figcaption{
+
+font-size:0.75rem;
+margin-bottom:2rem;
+
+}
 
 
 
 /* Link Styling */
 
+a{}
 
+a:link,
+a:visited{}
 
+a:focus,
+a:hover{}
 
 
 
 /* List Styling */
 
+ul{}
 
+ol{}
 
+.long-list a:hover{}
 
 
 
 /* Navigation Menu */
 
+nav{}
 
+nav a{}
 
+nav a:focus{}
+nav a:hover{}
+
+nav a:active{}
 
 
 
 /* Footer Styles */
 
-
+footer{}
 
 
 
