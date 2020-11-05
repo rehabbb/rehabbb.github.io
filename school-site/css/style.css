@@ -1,0 +1,120 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+
+/* NO changes should be made to any of the code above. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+
+/* Imported Typfaces */
+
+
+
+
+
+/* Typography Styles */
+
+
+
+
+
+
+/* Link Styling */
+
+
+
+
+
+
+/* List Styling */
+
+
+
+
+
+
+/* Navigation Menu */
+
+
+
+
+
+
+/* Footer Styles */
+
+
+
+
+
+
