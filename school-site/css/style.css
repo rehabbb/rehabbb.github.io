@@ -80,174 +80,157 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face{
-
+    
 font-family:'Josefinslab';
-src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+src:url(../fonts/josefinslab-regular.ttf) format('truetype');
 font-weight:normal;
 font-style:normal;
-letter-spacing: 0.125rem;
-
+    
 }
-
 
 @font-face{
-
+    
 font-family:'Montserrat';
-src: url(../fonts/montserrat-regular.ttf) format('truetype');
+src:url(../fonts/montserrat-regular.ttf) format('truetype');
 font-weight:normal;
-font-style:normal;
-
+font-style:normal;  
+    
 }
-
-
 
 /* Typography Styles */
 
 html{
-
-font-family: 'Montserrat', sans-serif;
-
+    
+    font-family:'Montserrat', sans-serif;
 }
 
 h1{
-
-font-family: 'Josefinslab', serif;
-font-size:3.75rem;
-margin:1.125rem;
-text-align:center;
-
+    
+    letter-spacing:0.125rem;
+    font-family:'Josefinslab', serif;
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align:center;
+    
 }
 
 h2{
-
-font-size:1.5rem;
-
+    
+    letter-spacing:0.125rem;
+    font-family:'Josefinslab', serif;
+    font-size:1.5rem;
+        
 }
 
 h2+p{
-
-text-indent:1.5rem;
-
+    
+    text-indent:1.5rem;
+    
 }
 
 p{
-
-font-size:0.75rem;
-letter-spacing:0.031rem;
-word-spacing:0.125rem;
-
-
+    
+    font-size:0.75rem;
+    letter-spacing:0.031rem;
+    word-spacing:0.125rem;
+    
 }
 
 li{
-
-font-size:0.75rem;
-letter-spacing:0.031rem;
-word-spacing:0.125rem;
-
+    
+    font-size:0.75rem;
+    letter-spacing:0.031rem;
+    word-spacing:0.125rem;
+     
 }
 
 figcaption{
-
-font-size:0.75rem;
-margin-bottom:2rem;
-
+        
+    font-size:0.75rem;
+    margin-bottom:2rem;
+        
 }
-
-
 
 /* Link Styling */
 
+
 a{
-
-outline: o;
-color:#33658A;
-
+    
+    outline:0;
+    color:#33658A;
 }
 
-a:link,
+a:link, 
 a:visited{
-
-color:#33658A;
-
+    
+    outline:0;
+    color:#33658A;
+    
 }
 
 a:focus,
 a:hover{
-
-text-decoration:none;
-
+    
+    outline:0;
+    text-decoration:none;
 }
-
-
 
 /* List Styling */
 
 ul{
-
+    
 margin:1rem 0rem 1rem 0rem;
 list-style-type:square;
-
+    
 }
 
 ol{
-
+    
 margin:1rem 0rem 1rem 0rem;
-list-style-type:"a";
-
+list-style-type:lower-alpha;
+    
 }
 
 .long-list a:hover{
-
-text-tranform:uppercase;
-
+    
+    text-transform:uppercase;
 }
-
-
 
 /* Navigation Menu */
 
 nav{
-
-padding-left:0;
-margin-top:0.35rem;
-
+    
+    padding-left:0;
+    margin-top:0.25rem;
 }
 
 nav a{
-
-text-decoration:none;
-display:inline-block;
-width:100%;
-height:3;
-text-align:center;
-font-size:1.125rem;
-margin-bottom:1.5rem;
-border-style:solid;
-border-width:16rem;
-border-color:#33658A;
-
+    
+    text-decoration:none;  
+    display:inline-block;  
+    width:100%;
+    line-height:3;
+    text-align:center;
+    font-size:1.125rem;
+    margin-bottom:1.5rem;
+    border: solid 0.0625rem;
+    border-color:#33658A;
+    
 }
 
-nav a:focus{
-
-color:#FFF;
-background-color:#33658A;
-
-}
+nav a:focus,
 nav a:hover{
-
-color:#FFF;
-background-color:#33658A;
-
-
+    
+    color:#FFF;
+    background-color:#33658A;
+    
 }
 
-nav a:active{
-
-color:#FFF;
-background-color:#000;
-
+nav a active{
+    
+    color:#FFF;
+    background-color:#000;
+    
 }
 
 
@@ -255,11 +238,11 @@ background-color:#000;
 /* Footer Styles */
 
 footer{
-
-text-align:center;
-
+    
+    text-align:center
 }
 
 
 
 
+75
