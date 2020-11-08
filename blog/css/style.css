@@ -48,4 +48,362 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+/* sans-serif fonts */
+
+
+@font-face{
+
+font-family:'Lato';
+src:url(../fonts/sans-serif/lato-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Montserrat';
+src:url(../fonts/sans-serif/montserrat-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Opensans';
+src:url(../fonts/sans-serif/opensans-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Roboto';
+src:url(../fonts/sans-serif/roboto-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+/* serif fonts */
+
+@font-face{
+
+font-family:'Josefinslab';
+src:url(../fonts/serif/josefinslab-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Robotoslab';
+src:url(../fonts/serif/robotoslab-regular.ttf) format ('truetype');
+font-weight:bold;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Rozhaone';
+src:url(../fonts/serif/rozhaone-regular.ttf) format ('truetype');
+font-weight:normal;
+font-style:normal;
+
+}
+
+@font-face{
+
+font-family:'Ultra';
+src:url(../fonts/serif/ultra-regular.ttf) format ('truetype');
+font-weight:bold;
+font-style:normal;
+
+}
+
+
+/* heading&hmtl styles */
+
+html{
+
+font-family:'Montserrat', sans-serif;
+
+}
+
+h1{
+
+font-family:'Opensans', sans-serif;
+font-size:3rem;
+color:#333333;
+text-shadow: 0.08rem 0.08rem 0.15rem #0d0d0d;
+letter-spacing:0.1rem;
+transform:rotate(-5deg);
+padding:0.5rem 0rem 2.5rem 0rem;
+text-align:center;
+
+}
+
+.highlight{
+
+font-family:'Ultra', serif;
+font-size:3.5rem;
+color:#ededde;
+text-shadow:none;
+background-color:#862d59;
+letter-spacing:0rem;
+
+/* box around text */
+
+padding: 0rem 0.75rem 0rem 0.75rem;
+border:solid;
+border-color:#862d59;
+border-radius:0.75rem 0rem 0.75rem 0rem;
+box-shadow:0.08rem 0.08rem 0.15rem #0d0d0d;
+text-transform:uppercase;
+
+}
+
+
+h2{
+
+color:#333333;
+font-family:'Montserrat', sans-serif;
+font-size:1.5rem;
+margin-left:2.5rem;
+
+}
+
+h3{
+
+color:#333333;
+font-family:'Montserrat', sans-serif;
+font-size:1.1rem;
+margin:0rem 0rem 0rem 2.5rem;
+
+}
+
+/* navigation bar */
+
+nav{
+
+font-family:'Robotoslab', serif;
+font-size:2rem;
+text-decoration:none;
+margin:1rem 0rem 1rem 2.5rem;
+border:solid;
+border-color:#333333;
+border-width:0.075rem 0rem 0.075rem 0rem;
+
+}
+
+nav a{
+
+text-decoration:none;
+line-height:3;
+padding-right:5rem;
+color:#204060;
+
+}
+
+.blog{
+
+color:black;
+text-transform:uppercase;
+text-decoration:line-through;
+
+}
+
+/* paragraph styling */
+
+p{
+
+color:#333333;
+margin-left:2.5rem;
+
+}
+
+/* styling for images */
+
+
+/* top image */
+
+figure img.article-image{
+
+width:20rem;
+float:left;
+
+}
+
+/* time */
+
+time{
+
+font-family:'Opensans', sans-serif;
+font-style:italic;
+margin-left:2.5rem;
+color:#333333;
+
+}
+
+/* images */
+
+figure{
+
+float:left;
+margin:0.5rem;
+
+}
+
+
+figure:nth-child(1){
+
+margin-left:2.5rem;
+
+}
+
+
+.subsection{
+
+margin-top:4rem;
+
+}
+
+figure img{
+
+vertical-align:top;
+width:18rem;
+
+}
+
+figcaption{
+
+background-color:#ededde;
+display:block;
+padding:0.35rem;
+
+}
+
+/* button */
+
+button{
+
+font-family: 'Ultra', serif;
+font-size:1.5rem;
+color:#ededde;
+text-transform:uppercase;
+margin:2.5rem 0rem 4rem 2.5rem;
+margin-top:2rem;
+
+/* button background */
+
+background-color:#204060;
+border-radius:0.6rem;
+padding:0.5rem;
+box-shadow:0.08rem 0.08rem 0.15rem #0d0d0d;
+
+}
+
+/* aside style */ 
+
+aside{
+
+width:25%;
+float:right;
+text-align:left;
+margin:0rem 2.5rem 0rem 2.5rem;
+border:solid;
+border-color:#333333;
+border-width:0rem 0rem 0rem 0.075em;
+
+}
+
+aside > img{
+
+margin: 0.75rem 2.5rem 0rem 2.5rem;
+width:18rem;
+
+}
+
+img + p{
+
+margin-top:1rem;
+margin-bottom:1rem;
+border:solid;
+border-color:#333333;
+border-width:0rem 0rem 0.075rem 0rem;
+padding-bottom:2.5rem;
+
+}
+
+.dots{
+
+display:block;
+margin-top:0.25rem;
+text-decoration:none;
+font-size:0.25rem;
+color:#333333;
+letter-spacing:0.1rem;
+
+}
+
+/* footer */
+
+footer{
+
+font-family:'Opensans', sans-serif;
+color:#333333;
+
+}
+
+p > a{
+
+font-family:'Josefinslab', serif;
+text-decoration:none;
+color:#6e8a76;
+text-align:left;
+
+}
+
+.image-links{
+
+text-align:right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
